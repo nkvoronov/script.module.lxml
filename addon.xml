@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.lxml"
+		name="lxml"
+		version="4.8.0"
+		provider-name="YDRAGON">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en_gb">Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API..</summary>
+		<summary lang="ru_RU">Мощная библиотека Pythonic для обработки XML, сочетающая libxml2/libxslt с ElementTree API.</summary>
+		<summary lang="uk_UA">Потужна бібліотека обробки XML Pythonic, що поєднує libxml2/libxslt з API ElementTree.</summary>
+		<description lang="en_gb">Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API..</description>
+		<description lang="ru_RU">Мощная библиотека Pythonic для обработки XML, сочетающая libxml2/libxslt с ElementTree API.</description>
+		<description lang="uk_UA">Потужна бібліотека обробки XML Pythonic, що поєднує libxml2/libxslt з API ElementTree.</description>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<platform>all</platform>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.module.lxml.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+	</extension>
+</addon>
